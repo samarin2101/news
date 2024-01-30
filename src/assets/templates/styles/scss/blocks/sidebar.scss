@@ -1,0 +1,29 @@
+.sidebar {
+	width: 100%;
+	max-width: 350px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	&__witget {
+		padding: 5px 20px;
+		&-title {
+			background-color: var(--blue);
+			color: var(--white);
+			padding: 8px 20px;
+			border-radius: 3px;
+		}
+		background-color: #f9f9f9;
+		box-shadow: 0 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
+		&-item {
+			margin-bottom: 20px;
+		}
+		&-link {
+			font-size: 17px;
+			transition: color 0.2s ease-in-out;
+			line-height: 1.5;
+			&:hover {
+				color: var(--red);
+			}
+		}
+	}
+}

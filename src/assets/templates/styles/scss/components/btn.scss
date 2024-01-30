@@ -1,0 +1,19 @@
+.btn {
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 3px;
+	text-transform: uppercase;
+	transition: background-color 0.2s ease-in-out;
+	font-size: 14px;
+	&-blue {
+		background-color: var(--blue);
+		color: var(--white);
+		&:hover {
+			background-color: var(--blue2);
+		}
+	}
+	&-width {
+		width: 100%;
+		max-width: 200px;
+	}
+}

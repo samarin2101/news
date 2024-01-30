@@ -1,0 +1,16 @@
+.nav {
+	&__list {
+		display: flex;
+		gap: 30px;
+		flex-wrap: wrap;
+	}
+
+	&__link {
+		font-size: 17px;
+		color: var(--black);
+		transition: color 0.2s ease-in-out;
+		&:hover {
+			color: var(--red);
+		}
+	}
+}

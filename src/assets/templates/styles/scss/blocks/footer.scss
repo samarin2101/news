@@ -1,0 +1,51 @@
+.footer {
+	background-color: var(--black);
+	padding: 10px 0 20px;
+	color: var(--white);
+	&__container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	&__logo {
+		a {
+			font-size: 30px;
+			font-style: italic;
+			color: var(--blue);
+		}
+	}
+	&-social {
+		&__list {
+			display: flex;
+			gap: 30px;
+		}
+	}
+
+	&__title {
+		margin-bottom: 10px;
+		font-size: 25px;
+	}
+	&__item {
+		width: 100%;
+		max-width: 33.33333%;
+	}
+}
+.footer-news {
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+	}
+	&__title {
+		margin-bottom: 20px;
+	}
+
+	&__link {
+		font-size: 17px;
+		transition: color 0.2s ease-in-out;
+		&:hover {
+			color: var(--red);
+		}
+	}
+}
